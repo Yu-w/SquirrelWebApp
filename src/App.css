@@ -1,0 +1,53 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 64px;
+}
+
+.App-Header {
+  font-size: 2em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 4em;
+  font-style: italic;
+}
+
+.App-intro {
+  font-size: 5em;
+}
+
+.App-subtitle {
+  margin-top: -20px;
+  font-size: 1.5em;
+  margin-bottom: 64px;
+}
+
+.App-search {
+  width: 50vw;
+  min-width: 380px;
+  margin-bottom: 44px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-select-lg .ant-select-selection--single {
+  border-radius: 30px;
+  height: 60px;
+}
+
+.ant-select-lg .ant-select-selection__rendered {
+  height: 100%;
+  line-height: 60px;
+  margin-left: 30px;
+}
